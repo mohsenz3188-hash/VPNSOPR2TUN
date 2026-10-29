@@ -1,0 +1,618 @@
+{
+  "format": 1,
+  "generated": "2026-10-29",
+  "platforms": {
+    "amd64": [
+      {
+        "id": "xray",
+        "repository": "XTLS/Xray-core",
+        "version": "v26.10.29",
+        "asset": "Xray-linux-64.zip",
+        "url": "https://github.com/XTLS/Xray-core/releases/download/v26.10.29/Xray-linux-64.zip",
+        "sha256": "8a5f3e6a1057e4bd0f8a7c57c9d91204b4be0b74222a6e210d070603101163c2",
+        "binaries": {
+          "xray": "xray"
+        }
+      },
+      {
+        "id": "sing-box",
+        "repository": "SagerNet/sing-box",
+        "version": "v1.14.4",
+        "asset": "sing-box-1.14.4-linux-amd64.tar.gz",
+        "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-amd64.tar.gz",
+        "sha256": "699a1b510aa4396b2176d32d1181920399ebf1e267835da6f3b598d0f7c24968",
+        "binaries": {
+          "sing-box": "sing-box"
+        }
+      },
+      {
+        "id": "v2ray",
+        "repository": "v2fly/v2ray-core",
+        "version": "v5.53.0",
+        "asset": "v2ray-linux-64.zip",
+        "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.53.0/v2ray-linux-64.zip",
+        "sha256": "6bbb8aee65a57d0b12599b4b7c842b3ad0daca4436e661d94015c447cb31b4fa",
+        "binaries": {
+          "v2ray": "v2ray"
+        }
+      },
+      {
+        "id": "wstunnel",
+        "repository": "erebe/wstunnel",
+        "version": "v11.1.0",
+        "asset": "wstunnel_11.1.0_linux_amd64.tar.gz",
+        "url": "https://github.com/erebe/wstunnel/releases/download/v11.1.0/wstunnel_11.1.0_linux_amd64.tar.gz",
+        "sha256": "512edf4e7bb64fc133522220123514868fae75b5bae4124b53e396787276aa23",
+        "binaries": {
+          "wstunnel": "wstunnel"
+        }
+      },
+      {
+        "id": "cloudflared",
+        "repository": "cloudflare/cloudflared",
+        "version": "2026.10.6",
+        "asset": "cloudflared-linux-amd64",
+        "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.6/cloudflared-linux-amd64",
+        "sha256": "1d356dac769d0dbf62ebe588c4034824bbff98d5790c2f844cc99e0e2f57462d",
+        "binaries": {
+          "cloudflared": "cloudflared"
+        }
+      },
+      {
+        "id": "brook",
+        "repository": "txthinking/brook",
+        "version": "v20270101",
+        "asset": "brook_linux_amd64",
+        "url": "https://github.com/txthinking/brook/releases/download/v20270101/brook_linux_amd64",
+        "sha256": "1541081e05e1e0de3a55eb548e8c9b5a99bfdac360c2eb98702ec5c20c968b7e",
+        "binaries": {
+          "brook": "brook"
+        }
+      },
+      {
+        "id": "shadowsocks",
+        "repository": "shadowsocks/shadowsocks-rust",
+        "version": "v1.25.0",
+        "asset": "shadowsocks-v1.25.0.x86_64-unknown-linux-musl.tar.xz",
+        "url": "https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.25.0/shadowsocks-v1.25.0.x86_64-unknown-linux-musl.tar.xz",
+        "sha256": "8439bf43c324b0fc273e663d0b1f8926fd8f666cbd1e0fd59b35096f0e778e92",
+        "binaries": {
+          "ssserver": "ssserver",
+          "sslocal": "sslocal"
+        }
+      },
+      {
+        "id": "nebula",
+        "repository": "slackhq/nebula",
+        "version": "v1.12.0",
+        "asset": "nebula-linux-amd64.tar.gz",
+        "url": "https://github.com/slackhq/nebula/releases/download/v1.12.0/nebula-linux-amd64.tar.gz",
+        "sha256": "44bf6ae565cf7e5391ca49e8c5f9e3b825755c385eacf79a1f0d28a0b7d3fe51",
+        "binaries": {
+          "nebula": "nebula",
+          "nebula-cert": "nebula-cert"
+        }
+      },
+      {
+        "id": "frp",
+        "repository": "fatedier/frp",
+        "version": "v0.71.1",
+        "asset": "frp_0.71.1_linux_amd64.tar.gz",
+        "url": "https://github.com/fatedier/frp/releases/download/v0.71.1/frp_0.71.1_linux_amd64.tar.gz",
+        "sha256": "1d9875210972a5d1a62b2dc4c48df45ab0af05d3ca1b5e494a014428259df803",
+        "binaries": {
+          "frpc": "frpc",
+          "frps": "frps"
+        }
+      },
+      {
+        "id": "rathole",
+        "repository": "rapiz1/rathole",
+        "version": "v0.5.0",
+        "asset": "rathole-x86_64-unknown-linux-gnu.zip",
+        "url": "https://github.com/rathole-org/rathole/releases/download/v0.5.0/rathole-x86_64-unknown-linux-gnu.zip",
+        "sha256": "3e7d0d0f365120cd3cd351d147d1a12ee960c8068b464d4dd533a3821873b80e",
+        "binaries": {
+          "rathole": "rathole"
+        },
+        "hash_source": "Pinned from official HTTPS release download; upstream API did not provide a digest"
+      },
+      {
+        "id": "gost",
+        "repository": "go-gost/gost",
+        "version": "v3.3.2",
+        "asset": "gost_3.3.2_linux_amd64.tar.gz",
+        "url": "https://github.com/go-gost/gost/releases/download/v3.3.2/gost_3.3.2_linux_amd64.tar.gz",
+        "sha256": "162feb43b1c284dbea599cdfe898169931af875233060dedc19432c7a9d18274",
+        "binaries": {
+          "gost": "gost"
+        }
+      },
+      {
+        "id": "chisel",
+        "repository": "jpillora/chisel",
+        "version": "v1.12.0",
+        "asset": "chisel_1.12.0_linux_amd64.gz",
+        "url": "https://github.com/jpillora/chisel/releases/download/v1.12.0/chisel_1.12.0_linux_amd64.gz",
+        "sha256": "f3f180f1d93aa72cce4e6386f98cc06569a0146fbd65eb4423cf83e6434bcfe6",
+        "binaries": {
+          "chisel": "chisel"
+        }
+      },
+      {
+        "id": "hysteria",
+        "repository": "HyNetworks/hysteria",
+        "version": "app/v2.13.0",
+        "asset": "hysteria-linux-amd64",
+        "url": "https://github.com/HyNetworks/hysteria/releases/download/app/v2.13.0/hysteria-linux-amd64",
+        "sha256": "907ba8c9693edb104b20582681fb7dc15639d5b64a9cbb616a7b539190a86691",
+        "binaries": {
+          "hysteria": "hysteria"
+        }
+      },
+      {
+        "id": "backhaul",
+        "repository": "Musixal/Backhaul",
+        "version": "v0.7.2",
+        "asset": "backhaul_linux_amd64.tar.gz",
+        "url": "https://github.com/Musixal/Backhaul/releases/download/v0.7.2/backhaul_linux_amd64.tar.gz",
+        "sha256": "57bf95c2eabeddb1152d2e94ac42f4310883ce0fb909ee2a57bd53503b2dabbc",
+        "binaries": {
+          "backhaul": "backhaul"
+        }
+      },
+      {
+        "id": "realm",
+        "repository": "zhboner/realm",
+        "version": "v2.9.6",
+        "asset": "realm-x86_64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/zhboner/realm/releases/download/v2.9.6/realm-x86_64-unknown-linux-musl.tar.gz",
+        "sha256": "b1cc335547bea8bb2a88178bef12ec7f2363e36200e7ea1d4e1e67627929bf65",
+        "binaries": {
+          "realm": "realm"
+        }
+      },
+      {
+        "id": "bore",
+        "repository": "ekzhang/bore",
+        "version": "v0.6.0",
+        "asset": "bore-v0.6.0-x86_64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/ekzhang/bore/releases/download/v0.6.0/bore-v0.6.0-x86_64-unknown-linux-musl.tar.gz",
+        "sha256": "e484d1e3acba77169b773f31a5bfb34192d4b660f44a094a658a2522cd2270f7",
+        "binaries": {
+          "bore": "bore"
+        }
+      },
+      {
+        "id": "udp2raw",
+        "repository": "wangyu-/udp2raw",
+        "version": "20230206.0",
+        "asset": "udp2raw_binaries.tar.gz",
+        "url": "https://github.com/wangyu-/udp2raw/releases/download/20230206.0/udp2raw_binaries.tar.gz",
+        "sha256": "503cf5781aa97e50b4954c6bc4622c3ea6be02f6a35def4bb3b3eaf95bd2c7e8",
+        "binaries": {
+          "udp2raw": "udp2raw_amd64"
+        },
+        "hash_source": "Pinned from official HTTPS release download; upstream API did not provide a digest"
+      },
+      {
+        "id": "phantun",
+        "repository": "dndx/phantun",
+        "version": "v0.8.1",
+        "asset": "phantun_x86_64-unknown-linux-musl.zip",
+        "url": "https://github.com/dndx/phantun/releases/download/v0.8.1/phantun_x86_64-unknown-linux-musl.zip",
+        "sha256": "0cf40f0ac48411f8ced94ce0afd617105c6b9a69ad8db137c3b1e4d184d6fcdb",
+        "binaries": {
+          "phantun-client": "phantun_client",
+          "phantun-server": "phantun_server"
+        }
+      }
+    ],
+    "arm64": [
+      {
+        "id": "xray",
+        "repository": "XTLS/Xray-core",
+        "version": "v26.10.29",
+        "asset": "Xray-linux-arm64-v8a.zip",
+        "url": "https://github.com/XTLS/Xray-core/releases/download/v26.10.29/Xray-linux-arm64-v8a.zip",
+        "sha256": "afe01f19045b05237420328028ee1ee2e1edd2100eb41a8cbbf50e683b0a6e58",
+        "binaries": {
+          "xray": "xray"
+        }
+      },
+      {
+        "id": "sing-box",
+        "repository": "SagerNet/sing-box",
+        "version": "v1.14.4",
+        "asset": "sing-box-1.14.4-linux-arm64.tar.gz",
+        "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-arm64.tar.gz",
+        "sha256": "436441f76ee2f7fe21b5b2d426d3cb261a480455a704865789ad533e4273ec26",
+        "binaries": {
+          "sing-box": "sing-box"
+        }
+      },
+      {
+        "id": "v2ray",
+        "repository": "v2fly/v2ray-core",
+        "version": "v5.53.0",
+        "asset": "v2ray-linux-arm64-v8a.zip",
+        "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.53.0/v2ray-linux-arm64-v8a.zip",
+        "sha256": "2bda03a3d6b93122cb418504dc1c9ada10f99ae6be58a1fcc4a5ca1a01e12a30",
+        "binaries": {
+          "v2ray": "v2ray"
+        }
+      },
+      {
+        "id": "wstunnel",
+        "repository": "erebe/wstunnel",
+        "version": "v11.1.0",
+        "asset": "wstunnel_11.1.0_linux_arm64.tar.gz",
+        "url": "https://github.com/erebe/wstunnel/releases/download/v11.1.0/wstunnel_11.1.0_linux_arm64.tar.gz",
+        "sha256": "148895f957a68be39e2b65d28c5f2065b9c58c4a0cfd48c560b2b3267f398464",
+        "binaries": {
+          "wstunnel": "wstunnel"
+        }
+      },
+      {
+        "id": "cloudflared",
+        "repository": "cloudflare/cloudflared",
+        "version": "2026.10.6",
+        "asset": "cloudflared-linux-arm64",
+        "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.6/cloudflared-linux-arm64",
+        "sha256": "0ae0e179475b2c77651a718d2b376e0151f4fca5954702a84f02843a4d5fcac0",
+        "binaries": {
+          "cloudflared": "cloudflared"
+        }
+      },
+      {
+        "id": "brook",
+        "repository": "txthinking/brook",
+        "version": "v20270101",
+        "asset": "brook_linux_arm64",
+        "url": "https://github.com/txthinking/brook/releases/download/v20270101/brook_linux_arm64",
+        "sha256": "8f81c73a778a244a778eb27315808dd2b41e1532f797bbf1a0e8af66c3c02793",
+        "binaries": {
+          "brook": "brook"
+        }
+      },
+      {
+        "id": "shadowsocks",
+        "repository": "shadowsocks/shadowsocks-rust",
+        "version": "v1.25.0",
+        "asset": "shadowsocks-v1.25.0.aarch64-unknown-linux-musl.tar.xz",
+        "url": "https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.25.0/shadowsocks-v1.25.0.aarch64-unknown-linux-musl.tar.xz",
+        "sha256": "2c24915b56a05effdab5898848bacfbcb625bc277b18febafc7a3aa45f87f3b0",
+        "binaries": {
+          "ssserver": "ssserver",
+          "sslocal": "sslocal"
+        }
+      },
+      {
+        "id": "nebula",
+        "repository": "slackhq/nebula",
+        "version": "v1.12.0",
+        "asset": "nebula-linux-arm64.tar.gz",
+        "url": "https://github.com/slackhq/nebula/releases/download/v1.12.0/nebula-linux-arm64.tar.gz",
+        "sha256": "1279bdde8ccaa0e8c0f90276a295cb471a1d10b5a5308d68d3ed519803df503a",
+        "binaries": {
+          "nebula": "nebula",
+          "nebula-cert": "nebula-cert"
+        }
+      },
+      {
+        "id": "frp",
+        "repository": "fatedier/frp",
+        "version": "v0.71.1",
+        "asset": "frp_0.71.1_linux_arm64.tar.gz",
+        "url": "https://github.com/fatedier/frp/releases/download/v0.71.1/frp_0.71.1_linux_arm64.tar.gz",
+        "sha256": "8edf590b0c396fa42f9c147121a76af83cfc2002b08f5aef0ea1008c43482019",
+        "binaries": {
+          "frpc": "frpc",
+          "frps": "frps"
+        }
+      },
+      {
+        "id": "rathole",
+        "repository": "rapiz1/rathole",
+        "version": "v0.5.0",
+        "asset": "rathole-aarch64-unknown-linux-musl.zip",
+        "url": "https://github.com/rathole-org/rathole/releases/download/v0.5.0/rathole-aarch64-unknown-linux-musl.zip",
+        "sha256": "fa4a6fc63d86f8f1faa7c103a845e4715ce79a048455c0eec897b27237576564",
+        "binaries": {
+          "rathole": "rathole"
+        },
+        "hash_source": "Pinned from official HTTPS release download; upstream API did not provide a digest"
+      },
+      {
+        "id": "gost",
+        "repository": "go-gost/gost",
+        "version": "v3.3.2",
+        "asset": "gost_3.3.2_linux_arm64.tar.gz",
+        "url": "https://github.com/go-gost/gost/releases/download/v3.3.2/gost_3.3.2_linux_arm64.tar.gz",
+        "sha256": "10cabc396eb644de1104fd695759444d2a8bf7b83463a8ab8f96174041e5bd18",
+        "binaries": {
+          "gost": "gost"
+        }
+      },
+      {
+        "id": "chisel",
+        "repository": "jpillora/chisel",
+        "version": "v1.12.0",
+        "asset": "chisel_1.12.0_linux_arm64.gz",
+        "url": "https://github.com/jpillora/chisel/releases/download/v1.12.0/chisel_1.12.0_linux_arm64.gz",
+        "sha256": "2ec6152cd2c74fe0146d4d79e4e7aa174521368c56e433d55e023a92ea404ec3",
+        "binaries": {
+          "chisel": "chisel"
+        }
+      },
+      {
+        "id": "hysteria",
+        "repository": "HyNetworks/hysteria",
+        "version": "app/v2.13.0",
+        "asset": "hysteria-linux-arm64",
+        "url": "https://github.com/HyNetworks/hysteria/releases/download/app/v2.13.0/hysteria-linux-arm64",
+        "sha256": "a68a61a84452ca250ce0368202521965ca9cc9d801a404f1dc9008ac6cf677a7",
+        "binaries": {
+          "hysteria": "hysteria"
+        }
+      },
+      {
+        "id": "backhaul",
+        "repository": "Musixal/Backhaul",
+        "version": "v0.7.2",
+        "asset": "backhaul_linux_arm64.tar.gz",
+        "url": "https://github.com/Musixal/Backhaul/releases/download/v0.7.2/backhaul_linux_arm64.tar.gz",
+        "sha256": "9a424c97ff16fc3f682e8314c418790d2b5bf3136e008edbb6cd402ea00999f6",
+        "binaries": {
+          "backhaul": "backhaul"
+        }
+      },
+      {
+        "id": "realm",
+        "repository": "zhboner/realm",
+        "version": "v2.9.6",
+        "asset": "realm-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/zhboner/realm/releases/download/v2.9.6/realm-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "f4c0318dd86854da483dcb7645b4f39cae2cc3f91c688fef969d53220b949488",
+        "binaries": {
+          "realm": "realm"
+        }
+      },
+      {
+        "id": "bore",
+        "repository": "ekzhang/bore",
+        "version": "v0.6.0",
+        "asset": "bore-v0.6.0-aarch64-unknown-linux-musl.tar.gz",
+        "url": "https://github.com/ekzhang/bore/releases/download/v0.6.0/bore-v0.6.0-aarch64-unknown-linux-musl.tar.gz",
+        "sha256": "ffc4515f3617420b243758cf36ed6a63208d7dba76b2ec3e90d1f476a9742951",
+        "binaries": {
+          "bore": "bore"
+        }
+      },
+      {
+        "id": "phantun",
+        "repository": "dndx/phantun",
+        "version": "v0.8.1",
+        "asset": "phantun_aarch64-unknown-linux-musl.zip",
+        "url": "https://github.com/dndx/phantun/releases/download/v0.8.1/phantun_aarch64-unknown-linux-musl.zip",
+        "sha256": "e3f2336b5173df071c8931b5e0e3d44c57453da0456007ed459ed369610c91fa",
+        "binaries": {
+          "phantun-client": "phantun_client",
+          "phantun-server": "phantun_server"
+        }
+      }
+    ],
+    "armv7": [
+      {
+        "id": "xray",
+        "repository": "XTLS/Xray-core",
+        "version": "v26.10.29",
+        "asset": "Xray-linux-arm32-v7a.zip",
+        "url": "https://github.com/XTLS/Xray-core/releases/download/v26.10.29/Xray-linux-arm32-v7a.zip",
+        "sha256": "263fa7325c63b3a7f7316405f561e7c790b44c1461992ea648007f0374e9bdf4",
+        "binaries": {
+          "xray": "xray"
+        }
+      },
+      {
+        "id": "sing-box",
+        "repository": "SagerNet/sing-box",
+        "version": "v1.14.4",
+        "asset": "sing-box-1.14.4-linux-armv7.tar.gz",
+        "url": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-armv7.tar.gz",
+        "sha256": "fd164ed45ebc784f657a3e1d0e0ad0f68afdcff864ee57122c2cfed3ddb80a00",
+        "binaries": {
+          "sing-box": "sing-box"
+        }
+      },
+      {
+        "id": "v2ray",
+        "repository": "v2fly/v2ray-core",
+        "version": "v5.53.0",
+        "asset": "v2ray-linux-arm32-v7a.zip",
+        "url": "https://github.com/v2fly/v2ray-core/releases/download/v5.53.0/v2ray-linux-arm32-v7a.zip",
+        "sha256": "bb90345678ea44de72599314a5aa619686b0a5f9f4a0a481de902cd45f072d72",
+        "binaries": {
+          "v2ray": "v2ray"
+        }
+      },
+      {
+        "id": "wstunnel",
+        "repository": "erebe/wstunnel",
+        "version": "v11.1.0",
+        "asset": "wstunnel_11.1.0_linux_armv7.tar.gz",
+        "url": "https://github.com/erebe/wstunnel/releases/download/v11.1.0/wstunnel_11.1.0_linux_armv7.tar.gz",
+        "sha256": "0a37948d6b68885acb5b2f8d275a6e256b65770fc39f9fe67882284eeafd40e3",
+        "binaries": {
+          "wstunnel": "wstunnel"
+        }
+      },
+      {
+        "id": "cloudflared",
+        "repository": "cloudflare/cloudflared",
+        "version": "2026.10.6",
+        "asset": "cloudflared-linux-armhf",
+        "url": "https://github.com/cloudflare/cloudflared/releases/download/2026.10.6/cloudflared-linux-armhf",
+        "sha256": "2d1e01655e12c82cb038dd662fa7cd567623f5fe995db1e09a968b5d091fb752",
+        "binaries": {
+          "cloudflared": "cloudflared"
+        }
+      },
+      {
+        "id": "brook",
+        "repository": "txthinking/brook",
+        "version": "v20270101",
+        "asset": "brook_linux_arm7",
+        "url": "https://github.com/txthinking/brook/releases/download/v20270101/brook_linux_arm7",
+        "sha256": "0a6917d0d67eeb9a39b9a19e51e7da9dcb66cec57adf466b5b8217bdd97212e2",
+        "binaries": {
+          "brook": "brook"
+        }
+      },
+      {
+        "id": "shadowsocks",
+        "repository": "shadowsocks/shadowsocks-rust",
+        "version": "v1.25.0",
+        "asset": "shadowsocks-v1.25.0.armv7-unknown-linux-musleabihf.tar.xz",
+        "url": "https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.25.0/shadowsocks-v1.25.0.armv7-unknown-linux-musleabihf.tar.xz",
+        "sha256": "12cd87a248c6d19ea2a0a4a8d7189ca9198a960fd1eeed027826e06ba2bb81d8",
+        "binaries": {
+          "ssserver": "ssserver",
+          "sslocal": "sslocal"
+        }
+      },
+      {
+        "id": "nebula",
+        "repository": "slackhq/nebula",
+        "version": "v1.12.0",
+        "asset": "nebula-linux-arm-7.tar.gz",
+        "url": "https://github.com/slackhq/nebula/releases/download/v1.12.0/nebula-linux-arm-7.tar.gz",
+        "sha256": "776fb7f0a5fc69db9b897bd09f40e46e888a508f1fec4b3c2df9972b3dc7782f",
+        "binaries": {
+          "nebula": "nebula",
+          "nebula-cert": "nebula-cert"
+        }
+      },
+      {
+        "id": "frp",
+        "repository": "fatedier/frp",
+        "version": "v0.71.1",
+        "asset": "frp_0.71.1_linux_arm_hf.tar.gz",
+        "url": "https://github.com/fatedier/frp/releases/download/v0.71.1/frp_0.71.1_linux_arm_hf.tar.gz",
+        "sha256": "a40116f15f2a05b7001f985f1f1ccb2570e2aa41329b06de76a82e71495786db",
+        "binaries": {
+          "frpc": "frpc",
+          "frps": "frps"
+        }
+      },
+      {
+        "id": "rathole",
+        "repository": "rapiz1/rathole",
+        "version": "v0.5.0",
+        "asset": "rathole-armv7-unknown-linux-musleabihf.zip",
+        "url": "https://github.com/rathole-org/rathole/releases/download/v0.5.0/rathole-armv7-unknown-linux-musleabihf.zip",
+        "sha256": "e8662d80d2cc9acc5f8f4d8a1c1a5ff7717b2fa71919a405d0eed8b64c8c1d88",
+        "binaries": {
+          "rathole": "rathole"
+        },
+        "hash_source": "Pinned from official HTTPS release download; upstream API did not provide a digest"
+      },
+      {
+        "id": "gost",
+        "repository": "go-gost/gost",
+        "version": "v3.3.2",
+        "asset": "gost_3.3.2_linux_armv7.tar.gz",
+        "url": "https://github.com/go-gost/gost/releases/download/v3.3.2/gost_3.3.2_linux_armv7.tar.gz",
+        "sha256": "f219cdd53486077cc1967b8b194f95dc3f87ea01841f85f6d5ec6692f1bd6979",
+        "binaries": {
+          "gost": "gost"
+        }
+      },
+      {
+        "id": "chisel",
+        "repository": "jpillora/chisel",
+        "version": "v1.12.0",
+        "asset": "chisel_1.12.0_linux_armv7.gz",
+        "url": "https://github.com/jpillora/chisel/releases/download/v1.12.0/chisel_1.12.0_linux_armv7.gz",
+        "sha256": "47ba1886948a2a71d91b1bebd94783456c62aa5e839c7a44406d7bb6f5175858",
+        "binaries": {
+          "chisel": "chisel"
+        }
+      },
+      {
+        "id": "hysteria",
+        "repository": "HyNetworks/hysteria",
+        "version": "app/v2.13.0",
+        "asset": "hysteria-linux-arm",
+        "url": "https://github.com/HyNetworks/hysteria/releases/download/app/v2.13.0/hysteria-linux-arm",
+        "sha256": "c75aa753fbe1a5263c266244285326ac7fe83617543cea00de2fc4bb79f89db6",
+        "binaries": {
+          "hysteria": "hysteria"
+        }
+      },
+      {
+        "id": "realm",
+        "repository": "zhboner/realm",
+        "version": "v2.9.6",
+        "asset": "realm-armv7-unknown-linux-musleabihf.tar.gz",
+        "url": "https://github.com/zhboner/realm/releases/download/v2.9.6/realm-armv7-unknown-linux-musleabihf.tar.gz",
+        "sha256": "ceedaf367c78f911eac227b2b88b3132f964d05a8b71f7a6a7e429dc78ec1862",
+        "binaries": {
+          "realm": "realm"
+        }
+      },
+      {
+        "id": "bore",
+        "repository": "ekzhang/bore",
+        "version": "v0.6.0",
+        "asset": "bore-v0.6.0-armv7-unknown-linux-musleabihf.tar.gz",
+        "url": "https://github.com/ekzhang/bore/releases/download/v0.6.0/bore-v0.6.0-armv7-unknown-linux-musleabihf.tar.gz",
+        "sha256": "d8c93e3c3d3da043bb9aa19fee1359f2160f5e9d4a146d69995e97307ce9067e",
+        "binaries": {
+          "bore": "bore"
+        }
+      },
+      {
+        "id": "udp2raw",
+        "repository": "wangyu-/udp2raw",
+        "version": "20230206.0",
+        "asset": "udp2raw_binaries.tar.gz",
+        "url": "https://github.com/wangyu-/udp2raw/releases/download/20230206.0/udp2raw_binaries.tar.gz",
+        "sha256": "503cf5781aa97e50b4954c6bc4622c3ea6be02f6a35def4bb3b3eaf95bd2c7e8",
+        "binaries": {
+          "udp2raw": "udp2raw_arm"
+        },
+        "hash_source": "Pinned from official HTTPS release download; upstream API did not provide a digest"
+      },
+      {
+        "id": "phantun",
+        "repository": "dndx/phantun",
+        "version": "v0.8.1",
+        "asset": "phantun_armv7-unknown-linux-musleabihf.zip",
+        "url": "https://github.com/dndx/phantun/releases/download/v0.8.1/phantun_armv7-unknown-linux-musleabihf.zip",
+        "sha256": "71f16f7a18c2ac98f3fec482d99a0e69540966cb867309f615617567d5d2f30f",
+        "binaries": {
+          "phantun-client": "phantun_client",
+          "phantun-server": "phantun_server"
+        }
+      }
+    ]
+  },
+  "system_packages": [
+    "ca-certificates",
+    "python3",
+    "openssl",
+    "openssh-client",
+    "openvpn",
+    "kcptun"
+  ],
+  "unavailable": {
+    "amd64": [],
+    "arm64": [
+      "udp2raw: official archive has no native arm64 executable"
+    ],
+    "armv7": [
+      "backhaul: no armv7 release asset"
+    ]
+  }
+}
